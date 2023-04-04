@@ -13,5 +13,5 @@ foreach (var item in cibiPreferiti)
 
 Console.WriteLine($" Il cibo in primo posto è : {cibiPreferiti.AsQueryable().First()}");
 Console.WriteLine($" Il cibo all`ultimo posto  è : {cibiPreferiti.AsQueryable().Last()}");
-
+Console.WriteLine($" Il cibo di mezza classifica  è : {cibiPreferiti[cibiPreferiti.Length / 2]}");
 
